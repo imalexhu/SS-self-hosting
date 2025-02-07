@@ -1,0 +1,7 @@
+       AWS_REGION = "us-west-2"  
+        PINECONE_API_KEY = "pcsk_6aWdAr_JzZdKmXzu7MSe8VWbGe5fiz1HZFYgqbSfS67V3T8hQ9va5uiu9U5WzDmmq1hb9H"
+        PINECONE_INDEX = "semantic-scholar"  
+        
+        BUCKET_NAME = "semantic-s3"
+        FILE_KEY = "abstracts/file1.json.gz"
+        
