@@ -91,10 +91,10 @@ def main():
 
         # Here you can modify which datasets you'd like to download and upload to s3.
         dataset_urls = {
-            "papers": "https://api.semanticscholar.org/datasets/v1/release/latest/dataset/papers",
+            # "papers": "https://api.semanticscholar.org/datasets/v1/release/latest/dataset/papers",
             
             # You can add additional URLs below such as: 
-            # "abstracts": "https://api.semanticscholar.org/datasets/v1/release/latest/dataset/abstracts",
+            "abstracts": "https://api.semanticscholar.org/datasets/v1/release/latest/dataset/abstracts",
             # "tldrs": "https://api.semanticscholar.org/datasets/v1/release/latest/dataset/tldrs",
             #"citations": "https://api.semanticscholar.org/datasets/v1/release/latest/dataset/citations"
         }
@@ -117,3 +117,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
