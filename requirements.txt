@@ -1,0 +1,7 @@
+boto3>=1.26.0
+pyarrow
+pandas
+tqdm
+asyncio
+aiohttp
+psutil
